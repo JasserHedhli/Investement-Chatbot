@@ -14,7 +14,7 @@ create_initial_project(project)
 os.chdir(project)
 print(os.listdir("."))
 
-% % writefile data/nlu.md
+%%writefile data/nlu.md
 
 # intent:trade
 - i want to trade
@@ -126,7 +126,7 @@ print(os.listdir("."))
 - am I talking to a bot?
 - am I talking to a human?
 
-% % writefile domain.yml
+%%writefile domain.yml
 
 intents:
     - greet
@@ -212,7 +212,7 @@ session_config:
     carry_over_slots_to_new_session: true
 
 
-% % writefile data/stories.md
+%%writefile data/stories.md
 
 # portfolio
 * greet
